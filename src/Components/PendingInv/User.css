@@ -1,0 +1,48 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  padding: 8px 0px;
+}
+.image img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+.Name h5 {
+  font-weight: 400;
+}
+.Name h6 {
+  font-weight: 300;
+}
+.extra {
+  display: flex;
+}
+.extra h5 {
+  font-weight: 400;
+}
+.icon {
+  margin-right: 5px;
+}
+.pricesheet {
+  padding: 3px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+.accept {
+  background-color: rgb(255, 81, 0);
+}
+.reject {
+  background-color: rgb(0, 162, 255);
+}
+.approval button {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 0 2px;
+  border-radius: 50px;
+}

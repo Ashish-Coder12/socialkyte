@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 10px;
+}
+.profile img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+.message {
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+.message:hover {
+  background-color: rgb(255, 136, 0);
+}
+.search input {
+  width: 80%;
+  height: 50px;
+  border-radius: 40px;
+  padding-left: 20px;
+  margin: 0% 10%;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
